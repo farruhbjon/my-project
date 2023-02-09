@@ -1,0 +1,272 @@
+@import url(./font.css);
+
+
+:root{
+    --primary-color:#7177F1;
+    --body:#151437;
+    --text-color:#323232;
+    --dots:#828282;
+    --dots-active:#7177F1;
+    --white:#fff;
+    --footer-link:#717171;
+    --monserrant:"Monserrant"
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: 0;
+}
+body{
+   
+    font-family: var(--monserrant);
+}
+
+
+.header-nav-link{
+    font-family: var(--monserrant);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+
+}.navbar{
+    width: 1035px;
+}
+
+.nav-list{
+    column-gap: 30px;
+   
+}
+.header-logo::after{
+    content: url(../img/HotCoffee.png);
+}
+/* header-start */
+.header-content{
+    margin-top: 40px;
+}
+.header-container{
+    width: 1035px;
+}
+.header-title{
+    font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+color: #000000;
+font-family: var(--monserrant);
+width: 354px;
+height: 146px;
+word-spacing: 12px;
+
+}
+.header-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #4A5568;
+margin-top:30px;
+
+}
+.nav-search{
+    margin:auto;
+}
+
+.header-container{
+    margin-top:100px;
+}
+/* header-end */
+
+/* main start */
+.info-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+border: 1px solid #E2E2E2;
+box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+border-radius: 5px;
+width: 1035px;
+
+    }
+    .info-content{
+margin-top: 120px;
+margin-left: 100px;
+width: 403px;
+    }
+    .info-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+         color: #718096;
+         width: 403px;
+         height: 54px;
+         }
+         .info-add{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+         }
+         .btn-light{
+            font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #2D3748;
+
+         }
+         .info-add-text{
+            font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #718096;
+}
+.adver-img{
+  
+}
+.adver-container{
+    margin-top: 100px;
+    height: 390px;
+    column-gap: 32px;
+    width: 1035px;
+}
+.card{
+   height: 390px;
+  
+}
+.card-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #718096;
+
+}
+.card-title{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #2D3748;
+}
+.advert-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3748;
+}
+.carousel-container{
+    background: #F7FAFC;
+    width: 1035px;
+    height: 500px;
+    margin-top: 100px;
+}
+.carousel-content{
+    margin-top: 90px;
+    padding-left: 40px;
+
+}
+.carousel-title{
+    font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+width: 308px;
+height: 96px;
+color: #000000;
+
+}
+.carousel-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+width: 311px;
+color: #718096;
+height: 114px;
+}
+.carousel-item{
+   margin-left: 200px;
+   width: 500px;
+   height: 500px;
+}
+.carousel-control-next{
+    background-color: #323232;
+    color: #000000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+.carousel-control-prev{
+    background-color: #323232;
+    color: #000000; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+
+
+/* main end */
+/* footer start */
+.footer{
+    height: 99px;
+    background: #4a5568dc;
+    margin-top: 50px;
+    z-index: -1;
+   
+}
+.footer::before{
+   border-bottom:4px  #000000 solid ;
+}
+.footer-container{
+    width: 1035px;
+}
+
+.footer-list{
+column-gap: 32px;
+align-items: center;
+padding-top: 40px;
+}
+.footer-title{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+padding-top: 40px;
+}
+span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+    padding-top: 40px;
+}
+.collapse-container{
+    margin-top: 55px;
+  
+}
+.btn-info{
+  margin-left: 900px;
+}
+.collapse-img {
+    width: 300px;
+    height: 230px;
+    border: 4px solid red;
+}
+.bod{
+   display: flex;
+   column-gap: 39px;
+    margin: auto;
+    
+}
+
+/* footer end */
